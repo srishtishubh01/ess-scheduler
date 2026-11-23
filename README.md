@@ -1,8 +1,10 @@
 # 🗓️ ESS Scheduler — Employee Shift Scheduling System
 
-A modern, responsive employee shift scheduling dashboard built with React. ESS Scheduler helps manage employee shifts, monitor schedules, and organize workforce planning through a clean and user-friendly interface.
+A modern, responsive employee shift scheduling dashboard built with React. ESS Scheduler provides a clean and intuitive interface for organizing employee shifts, managing schedules, and visualizing workforce planning.
 
-🔗 **Live Demo:** ADD_YOUR_VERCEL_LINK_HERE
+🌐 **Live Demo:** [View ESS Scheduler](https://ess-scheduler-fynt.vercel.app/)
+
+💻 **GitHub Repository:** [ess-scheduler](https://github.com/srishtishubh01/ess-scheduler)
 
 ---
 
@@ -13,10 +15,11 @@ A modern, responsive employee shift scheduling dashboard built with React. ESS S
 - 🗓️ Shift Scheduling & Management
 - 📅 Calendar-Based Schedule View
 - 🔄 Shift Organization
-- 📱 Responsive UI
-- 💾 LocalStorage-based demo data persistence
-- 🎨 Modern UI with clean styling
-- 🧭 Multi-page navigation using React Router
+- 📱 Responsive User Interface
+- 💾 LocalStorage-based data persistence
+- 🎨 Modern and clean design
+- 🧭 Multi-page navigation
+- 🔐 Demo login interface with role-based demo views
 
 ---
 
@@ -24,27 +27,23 @@ A modern, responsive employee shift scheduling dashboard built with React. ESS S
 
 | Technology | Purpose |
 |---|---|
-| React | Frontend UI |
-| Vite | Development & build tool |
+| React | Frontend UI development |
+| Vite | Development server and build tool |
 | JavaScript | Application logic |
-| CSS | Styling & responsive layouts |
-| React Router | Navigation |
+| CSS | Styling and responsive layouts |
+| React Router | Page navigation |
 | Lucide React | Icons |
-| LocalStorage | Browser-side demo data storage |
+| LocalStorage | Browser-side data persistence |
 
 ---
 
-## 📸 Project Overview
+## 🚀 Live Preview
 
-ESS Scheduler is designed to simplify employee scheduling through an organized dashboard and intuitive interface.
+**Try the application here:**
 
-The application focuses on:
+### [🌐 Open ESS Scheduler](https://ess-scheduler-fynt.vercel.app/)
 
-- Easy navigation
-- Clear schedule visualization
-- Employee-oriented workflow
-- Responsive design
-- Simple user experience
+The application is deployed on Vercel and accessible through a web browser.
 
 ---
 
@@ -56,47 +55,51 @@ ess-scheduler/
 ├── public/
 ├── src/
 │   ├── components/
+│   ├── context/
+│   ├── data/
+│   ├── lib/
 │   ├── pages/
-│   ├── assets/
 │   ├── App.jsx
+│   ├── index.css
 │   ├── main.jsx
-│   └── styles/
+│   └── utils.js
 │
 ├── index.html
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
 └── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+## ⚙️ Installation & Setup
 
-### 1. Clone the Repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/srishtishubh01/ess-scheduler.git
 ```
 
-### 2. Navigate to Project Folder
+### 2. Navigate to the project directory
 
 ```bash
 cd ess-scheduler
 ```
 
-### 3. Install Dependencies
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Start Development Server
+### 4. Start the development server
 
 ```bash
 npm run dev
 ```
 
-### 5. Build for Production
+### 5. Build for production
 
 ```bash
 npm run build
@@ -104,14 +107,14 @@ npm run build
 
 ---
 
-## 💾 Data Storage
+## 💾 Data & Application Notes
 
-This project is a **frontend-only application**.
-
-- Demo data is stored in browser LocalStorage.
-- Data persistence is limited to the current browser/device.
+- This is a frontend-only project.
+- Application demo data is stored in the browser using LocalStorage.
+- Data persistence is limited to the browser and device where it is saved.
 - No backend server or database is connected.
-- Authentication and role-related functionality, if present, is for demonstration purposes only.
+- Login and role-based views are for demonstration purposes only.
+- No production authentication or server-side security is implemented.
 
 ---
 
